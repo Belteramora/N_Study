@@ -1,0 +1,4 @@
+C:\Users\Clausioris\Documents\GitHub\N_Study\ChessTests\obj\Debug\netcoreapp3.1\ChessTests.csprojAssemblyReference.cache
+C:\Users\Clausioris\Documents\GitHub\N_Study\ChessTests\obj\Debug\netcoreapp3.1\ChessTests.AssemblyInfoInputs.cache
+C:\Users\Clausioris\Documents\GitHub\N_Study\ChessTests\obj\Debug\netcoreapp3.1\ChessTests.AssemblyInfo.cs
+C:\Users\Clausioris\Documents\GitHub\N_Study\ChessTests\obj\Debug\netcoreapp3.1\ChessTests.csproj.CoreCompileInputs.cache
