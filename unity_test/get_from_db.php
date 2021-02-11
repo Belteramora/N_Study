@@ -10,7 +10,7 @@
 
 
     if($result->num_rows > 0){
-        echo "okey";
+        echo "okey-".$result->fetch_array()[3];
     }
     else{
         echo "not_okey";

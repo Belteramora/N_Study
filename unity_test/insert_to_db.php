@@ -6,7 +6,7 @@
     $password = $_GET['password'];
     //$hash = $_GET['hash'];
     
-    $query = "insert into accounts values (NULL, '$email', '$password');";
-    $result = mysqli_query($db, $query);
+    $query = "insert into accounts values (NULL, '$email', '$password', 0);";
+    $result = $database->query($query);
     
 ?>
