@@ -7,13 +7,13 @@ public class CoursesManager : MonoBehaviour
 {
     public string phpScriptUrl;
 
-    public TextMeshProUGUI themeName;
-    public TextMeshProUGUI description;
+    public TextMeshProUGUI themeTextMesh;
+    public TextMeshProUGUI descriptionTextMesh;
 
     public void Start()
     {
-        themeName.text = "";
-        description.text = "";
+        themeTextMesh.text = "";
+        descriptionTextMesh.text = "";
     }
 
     public void Select(string parameters)
@@ -30,8 +30,8 @@ public class CoursesManager : MonoBehaviour
 
         string text = getRequest.text;
 
-        themeName.text = pageName;
-        description.text = text;
+        themeTextMesh.text = pageName;
+        descriptionTextMesh.text = text;
     }
 
     public void OnEnable()
